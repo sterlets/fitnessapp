@@ -115,7 +115,11 @@ $ python manage.py create_db
 
 Note: you do not need to run "python manage.py db upgrade" or "python manage.py db migrate" if its your first go at it
 
-4. Run Back-End
+#### Run program
+
+Navigate to project root using a command line. E.g. you can use shit + right click on the folder.
+
+1. Run Back-End
 
 ```
 $ python manage.py runserver
@@ -127,8 +131,7 @@ If all goes well, you should see ```* Running on http://127.0.0.1:5000/ (Press C
 
 ```
 $ cd static
-$ npm install
-$ npm start
+$ npm run start
 ```
 
 6. open your browser to http://localhost:3000/register and setup your first account
